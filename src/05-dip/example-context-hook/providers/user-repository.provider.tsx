@@ -24,7 +24,7 @@ export function UserRepositoryProvider({
 export function useUserRepository() {
   const context = useContext(UserRepositoryContext);
   if (!context) {
-    throw new Error(`useDependencies must be used within DependenciesContextProvider`);
+    throw new Error(`useDependencies must be used within UserRepositoryProvider`);
   }
   return context;
 }

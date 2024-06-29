@@ -9,8 +9,8 @@ export function CompanyList() {
     <div>
       <div>Company Name: {company.name}</div>
       {/*
-        Cannot use Thumbnail
-        <Thumbnail user={user} />
+        Cannot use Thumbnail, company is not compatible with user
+        <Thumbnail user={company} />
       */}
     </div>
     ))

@@ -52,5 +52,5 @@ export function ConfirmationModal({
         </Button>
       </DialogActions>
     </Dialog>
-);
+  );
 }

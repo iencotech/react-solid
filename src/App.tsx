@@ -6,8 +6,8 @@ import './App.css'
 function App() {
   return (
     <>
-      {/* <SingleResponsibilityPrinciple /> */}
-      {/* <OpenClosedPrinciple /> */}
+      <SingleResponsibilityPrinciple />
+      <OpenClosedPrinciple />
       <LiskovSubstitutionPrinciple />
     </>
   )

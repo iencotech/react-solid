@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material';
-import { PersonsList } from './before';
+import { PersonsList } from './after';
 
 export function SingleResponsibilityPrinciple() {
   return <>
